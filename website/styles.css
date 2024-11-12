@@ -215,3 +215,39 @@ h2 {
     background-color: #2c3e50;
     color: rgb(0, 0, 0);
 }
+
+ /* Contact styles */
+ .container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41; 
+
+}
