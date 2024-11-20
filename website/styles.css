@@ -70,13 +70,13 @@ section {
 }
 
 h1 {
-    background-image: url('');
+    background-image: url('https://github.com/anselme-alu/women-empowerment/blob/main/website/Thumbnails/Iris%20Irumva.png?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     height: 400px;
-    color: #000000;
+    color: #ffffff;
     display: flex;
     align-items: flex-end;
     justify-content: center;
