@@ -154,26 +154,6 @@ h2 {
       left: calc(var(--size) * 1);
     }
 
-    img:nth-child(5) {
-      top: calc(var(--size) + var(--gap));
-      left: calc(var(--size) * 3);
-    }
-
-    img:nth-child(6) {
-      left: 0;
-      top: calc(calc(var(--size) *2) + calc(var(--gap) *2));
-    }
-
-    img:nth-child(7) {
-      top: calc(calc(var(--size) *2) + calc(var(--gap) *2));
-      left: calc(var(--size) * 2);
-    }
-
-    img:nth-child(8) {
-      top: calc(calc(var(--size) *2) + calc(var(--gap) *2));
-      left: calc(var(--size) * 4);
-    }
-
     img:hover {
       clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
       z-index: 1;
