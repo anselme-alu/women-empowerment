@@ -264,3 +264,7 @@ h2 {
       transform: scale(1.2);
       /* Enlarge on hover */
   }
+
+.two-columns {
+    display: flex;
+}
