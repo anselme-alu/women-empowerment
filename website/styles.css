@@ -17,6 +17,16 @@ section {
     background: #ffffff;
 }
 
+h1 {
+    color:#000000;
+    background-image: url('');
+    text-align: end;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h2 {
     color: #000000;
     text-align: center;
