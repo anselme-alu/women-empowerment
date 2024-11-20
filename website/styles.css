@@ -71,7 +71,6 @@ section {
 
 h1 {
     background-image: url('https://github.com/anselme-alu/women-empowerment/blob/main/website/Thumbnails/Iris%20Irumva.png?raw=true');
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -122,17 +121,15 @@ h2 {
       transform: translate(-50%, -60%);
     }
 
-    img {
+    .gallery img {
       width: calc(var(--size) * 2);
       height: calc(var(--size) * 2);
-
       object-fit: cover;
       clip-path: path("M90,10 C100,0 100,0 110,10 190,90 190,90 190,90 200,100 200,100 190,110 190,110 110,190 110,190 100,200 100,200 90,190 90,190 10,110 10,110 0,100 0,100 10,90Z");
       position: absolute;
       transform: translate(0%, 0%);
       transition: all 0.5s;
     }
-
 
     img:nth-child(1) {
       top: 0;
