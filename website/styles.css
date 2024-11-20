@@ -267,4 +267,6 @@ h2 {
 
 .two-columns {
     display: flex;
+    max-width: 800px;
+    margin: 10px auto;
 }
