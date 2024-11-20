@@ -154,6 +154,11 @@ h2 {
       left: calc(var(--size) * 1);
     }
 
+    img:nth-child(5) {
+      top: calc(var(--size) + var(--gap));
+      left: calc(var(--size) * 3);
+    }
+
     img:hover {
       clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
       z-index: 1;
