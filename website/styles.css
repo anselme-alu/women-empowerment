@@ -18,13 +18,22 @@ section {
 }
 
 h1 {
-    color:#000000;
     background-image: url('');
-    text-align: end;
-    background-repeat:no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    text-align:center;
 }
 
 h2 {
