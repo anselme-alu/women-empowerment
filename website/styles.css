@@ -23,14 +23,16 @@ body {
 }
 
 .nav-menu li {
-    margin: 0;
+    margin: 20px;
+    padding-left: 10px;
 }
 
 .nav-menu a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 24px;
     transition: color 0.3s ease;
+    padding: auto;
 }
 
 
