@@ -24,6 +24,35 @@
             <p>Empower Women Rwanda is dedicated to uplifting women by providing a platform that highlights their voices, challenges societal stereotypes, and promotes gender equity. Our goal is to drive meaningful change by creating awareness, celebrating achievements, and fostering a community of support.</p>
         </section>
 
+        <div class="form-container">
+            <h1>Share Your Success Story</h1>
+            <form action="/submit-story" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact">Contact Information (Optional):</label>
+                    <input type="text" id="contact" name="contact" placeholder="Email or phone">
+                </div>
+                <div class="form-group">
+                    <label for="title">Story Title:</label>
+                    <input type="text" id="title" name="title" placeholder="Enter a title for your story" required>
+                </div>
+                <div class="form-group">
+                    <label for="story">Your Story:</label>
+                    <textarea id="story" name="story" placeholder="Write your testimony or success story here..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="image">Upload a Photo (Optional):</label>
+                    <input type="file" id="image" name="image" accept="image/*">
+                </div>
+                
+                <button type="submit" class="submit-button">Submit Your Story</button>
+            </form>
+        </div>
+
        
     </main>
     <footer class="main-footer">
