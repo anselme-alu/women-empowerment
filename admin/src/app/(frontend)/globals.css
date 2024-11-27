@@ -101,3 +101,9 @@ html[data-theme='dark'],
 html[data-theme='light'] {
   opacity: initial;
 }
+
+.goog-te-gadget {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
