@@ -30,8 +30,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
       </head>
       <body>
-        <div id="google_translate_element"></div>
-        
+        <div id="google_translate_element" className=''></div>
+
         <Providers>
           <AdminBar
             adminBarProps={{
@@ -44,11 +44,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           {children}
           <Footer />
         </Providers>
+        <Script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="lazyOnload" />
         <Script
-          strategy="lazyOnload" 
+          strategy="lazyOnload"
           src="/google-translate.js"
         />
-        <Script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="afterInteractive" />
       </body>
     </html>
   )
