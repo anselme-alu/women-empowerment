@@ -78,6 +78,9 @@ importers:
       jsonwebtoken:
         specifier: 9.0.2
         version: 9.0.2
+      lucide:
+        specifier: ^0.462.0
+        version: 0.462.0
       lucide-react:
         specifier: ^0.378.0
         version: 0.378.0(react@19.0.0-rc-65a56d0e-20241020)
@@ -3437,6 +3440,9 @@ packages:
     resolution: {integrity: sha512-u6EPU8juLUk9ytRcyapkWI18epAv3RU+6+TC23ivjR0e+glWKBobFeSgRwOIJihzktILQuy6E0E80P2jVTDR5g==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
+
+  lucide@0.462.0:
+    resolution: {integrity: sha512-mu9dpNXnonG2e2jO3jS8PCXwT0yNo8qyEOtEfcTIfbyRYgDa6Br81lP0eJRCcXUEvaGekw2h1diAvgL+l1M+GA==}
 
   md5@2.3.0:
     resolution: {integrity: sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==}
@@ -9072,6 +9078,8 @@ snapshots:
   lucide-react@0.378.0(react@19.0.0-rc-65a56d0e-20241020):
     dependencies:
       react: 19.0.0-rc-65a56d0e-20241020
+
+  lucide@0.462.0: {}
 
   md5@2.3.0:
     dependencies:
