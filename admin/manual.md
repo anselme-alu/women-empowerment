@@ -5,9 +5,9 @@
 1. **Introduction**
 2. **Accessing the Admin Panel**
 3. **Creating a New Blog Post**
-4. **Adding Content to Your Blog Post**
-5. **Customizing Your Blog Post**
-6. **Publishing Your Blog Post**
+4. **Adding Content to Our Blog Post**
+5. **Customizing Our Blog Post**
+6. **Publishing Our Blog Post**
 7. **Managing Custom Pages**
 8. **Adding Media**
 9. **Working with Forms and Submissions**
@@ -25,7 +25,7 @@ Welcome to the **Women emp CMS Blog Management Guide**! This user-friendly manua
 
 ## **2. Accessing the Admin Panel**
 
-1. Open your web browser and go to your website’s admin URL, e.g., `yourwebsite.com/admin`.
+1. Open your web browser and go to your website’s admin URL, e.g., `https://womenemp.vercel.app/admin`.
 2. Log in with your username and password.
 3. The admin dashboard will display various sections, such as Pages, Blog Posts, Media, and Forms.
 
@@ -155,4 +155,4 @@ Forms allow visitors to interact with your site, such as submitting inquiries or
 
 ## **Conclusion**
 
-This guide provides everything you need to manage your Payload CMS site effectively. By creating engaging blog posts, custom pages, and interactive forms, you can inspire and connect with your audience. Don’t hesitate to explore the admin panel and experiment with features to make the most of your website!
+This guide provides everything you need to manage our site effectively. By creating engaging blog posts, custom pages, and interactive forms, you can inspire and connect with your audience. Don’t hesitate to explore the admin panel and experiment with features to make the most of our website!
