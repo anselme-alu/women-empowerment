@@ -25,7 +25,7 @@ Welcome to the **Women emp CMS Blog Management Guide**! This user-friendly manua
 
 ## **2. Accessing the Admin Panel**
 
-1. Open your web browser and go to your website’s admin URL, e.g., `https://womenemp.vercel.app/admin`.
+1. Open your web browser and go to your website’s admin URL, e.g., `https://womenem/admin`.
 2. Log in with your username and password.
 3. The admin dashboard will display various sections, such as Pages, Blog Posts, Media, and Forms.
 
